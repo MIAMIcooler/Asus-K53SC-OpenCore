@@ -1,20 +1,21 @@
-# ASUS K53SC OpenCore
-Opencore efi folder for asus k53sc. it kinda sucks but it was annoying to set up so im archiving it
+# ASUS K53SC OpenCore (based on dubsteptwo's EFI)
 
-## What doesn't work
+## What changed
+- Model (from MacBookAir6,1 "Haswell" to 'MacBookPro8,1 "Sandy Bridge") - fixes graphics after 10.13
+- USB Mapping (USB 2 for now)
 
-- Graphics acceleration post 10.13 (you can get it working with oclp or whatever though probably)
-- USB 3 port post-booting, webcam. USB mapping may help, i dont care anymore
-- didnt try the card reader bc i dont have any cards to read
-- booting from hard drive/ssd. cant figure out why
-- graphics acceleration used to be very finnicky but its been decent lately???
+## What doesn't work (still)
+
+- USB 3, webcam (in some apps it works). 
 
 ## How to use
 
 follow along this guide https://dortania.github.io/OpenCore-Install-Guide/, you can skip the bits where you actually do stuff, but you do need to
-- format the flash drive
-- shove the stuff in there
-- get the macos installer dmg
-- set upthe serial number and whatever else numbers the smbios wants
+- format the flash drive (2GB in FAT32 - works the best)
+- put the stuff in there
+- set up SMBIOS (just for it to be different)
+#### Make sure you have enabled UEFI Boot in the BIOS
 
-All of those are described in the guide, i'd recommend reading the whole thing too given this isnt rly complete so ull probably need to put some work in for this to be like okay-ish
+## How to make it boot from the hard drive
+
+It's kind of easy, you just install the linux distro of your choice, so it creates a boot entry in bios, and shove the files into the efi partition on the drive
