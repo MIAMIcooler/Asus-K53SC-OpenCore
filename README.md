@@ -3,15 +3,16 @@
 ## Contents
 1. EFI folder
 2. Utilities:
-  a. macrecovery
-  b. GenSMBIOS
-  c. USB Tool Box (USB mapping)
+   1. macrecovery
+   2. GenSMBIOS
+   3. USBToolBox (USB mapping)
+
 ## Note
 This EFI is based for macOS 10.13
 
 ## Prerequisites
 - The same exact laptop
-- 4 GB+ flash drive
+- 2 GB+ flash drive (fast one is recommended)
 - Windows 10 and up (maybe Windows 8 / 8.1 will work with Python 3, idk)
 - Python 3 (>=3.9)
 - Some knowlege of what you're doing
@@ -30,7 +31,7 @@ You need to:
 - Put the files in there (EFI and com.apple.reecovery.boot on the root of the drive)
 - Set up SMBIOS (just for it to be different)
 
-- Or follow the guide: https://dortania.github.io/OpenCore-Install-Guide
+Or follow the guide: https://dortania.github.io/OpenCore-Install-Guide
 #### Make sure you have enabled UEFI Boot in the BIOS
 
 ## How to make it boot from the hard drive
