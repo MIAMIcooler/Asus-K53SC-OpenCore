@@ -3,7 +3,9 @@
 ## Contents
 1. EFI folder
 2. Utilities:
-
+  a. macrecovery
+  b. GenSMBIOS
+  c. USB Tool Box (USB mapping)
 ## Note
 This EFI is based for macOS 10.13
 
