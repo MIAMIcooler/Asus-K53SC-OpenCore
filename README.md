@@ -25,7 +25,9 @@ This EFI is based for macOS 10.13
 - USB 3, webcam (in some apps it works). 
 
 ## How to make it work
-Download macOS 10.13 with macrecovery using: py macrecovery.py -b Mac-7BA5B2D9E42DDD94 -m 00000000000J80300 download
+Download macOS 10.13 with macrecovery using either: 
+   1. py macrecovery.py -b Mac-7BA5B2D9E42DDD94 -m 00000000000J80300 download
+   2. py macrecovery.py -b Mac-BE088AF8C5EB4FA2 -m 00000000000J80300 download
 You need to:
 - Format the flash drive (2GB in FAT32 - works the best)
 - Put the files in there (EFI and com.apple.reecovery.boot on the root of the drive)
