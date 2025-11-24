@@ -39,7 +39,3 @@ Or follow the guide: https://dortania.github.io/OpenCore-Install-Guide
 ## How to make it boot from the hard drive
 
 It's kind of easy, you just install the linux distro of your choice, so it creates a boot entry in bios, and shove the files into the efi partition on the drive
-
-## Q&A (kind  of)
-Q: WHy graphics didn't work after 10.13?
-A: HD3000 isn't supported after 10.13, therefore it  doesn't work
