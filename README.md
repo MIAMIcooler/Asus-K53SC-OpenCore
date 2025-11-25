@@ -20,6 +20,7 @@ This EFI is based for macOS 10.13
 ## What changed
 - Model (from MacBookAir6,1 "Haswell" to 'MacBookPro8,1 "Sandy Bridge") - fixes graphics after 10.13
 - USB Mapping (USB 2 for now)
+- Added NullCPUPowerManagement.kext, won't boot without it
 
 ## What doesn't work (still)
 - USB 3, webcam (in some apps it works). 
