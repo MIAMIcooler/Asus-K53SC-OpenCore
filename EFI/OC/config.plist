@@ -901,7 +901,7 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string></string>
+				<string>NullCPUPowerManagement.kext</string>
 				<key>Comment</key>
 				<string>NullCPUPowerManagement.kext</string>
 				<key>Enabled</key>
