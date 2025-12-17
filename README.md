@@ -35,6 +35,13 @@ Download macOS 10.13 with macrecovery using either:
 - Set up SMBIOS (just for it to be different)
 
 Or follow the guide: https://dortania.github.io/OpenCore-Install-Guide
+
+#### Recommended to remap USB via USBToolBox:
+1. Go to "C. Change Settings" -> enable both Native Classes and Legacy Native Classes (N and L), then B to get back
+2. Go to "D. Discovr Ports" -> connect any USB device to every USB port, then B to get back
+3. Go to "S. Select Ports And Build Kext" -> K. Build Kext -> enter "MacBookPro8,1"
+4. Copy the USBMapLegacy.kext folder to "Kexts" foldr in OC
+
 #### Make sure you have enabled UEFI Boot in the BIOS
 
 ## How to make it boot from the hard drive
