@@ -1,4 +1,5 @@
 # ASUS K53SC Opencore
+(based on dubsteptwo's EFI)
 
 ## Contents
 1. EFI folder
