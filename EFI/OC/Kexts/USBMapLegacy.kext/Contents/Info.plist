@@ -58,7 +58,7 @@
 				</dict>
 			</dict>
 			<key>model</key>
-			<string>MacBookAir6,1</string>
+			<string>MacBookPro8,1</string>
 		</dict>
 		<key>EHC2</key>
 		<dict>
@@ -96,7 +96,7 @@
 				</dict>
 			</dict>
 			<key>model</key>
-			<string>MacBookAir6,1</string>
+			<string>MacBookPro8,1</string>
 		</dict>
 		<key>PXSX</key>
 		<dict>
@@ -118,32 +118,13 @@
 			<dict>
 				<key>port-count</key>
 				<data>
-				AwAAAA==
+				AAAAAA==
 				</data>
 				<key>ports</key>
-				<dict>
-					<key>HS01</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>
-						AwAAAA==
-						</data>
-					</dict>
-					<key>SS01</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>
-						AQAAAA==
-						</data>
-					</dict>
-				</dict>
+				<dict/>
 			</dict>
 			<key>model</key>
-			<string>MacBookAir6,1</string>
+			<string>MacBookPro8,1</string>
 		</dict>
 	</dict>
 	<key>OSBundleRequired</key>
