@@ -43,6 +43,11 @@ Or follow the guide: https://dortania.github.io/OpenCore-Install-Guide
 3. Go to "S. Select Ports And Build Kext" -> K. Build Kext -> enter "MacBookPro8,1"
 4. Copy the USBMapLegacy.kext folder to "Kexts" foldr in OC
 
+#### Recommended to regenerate SMBIOS info:
+1. Open GenSMBIOS, then "2. Select config.plist"
+2. Drag and drop config.plist, then Enter
+3. "3. Generate SMBIOS" -> input "MacBookPro8,1", tthen Enter. It'll automatically put the info in config.plist
+
 #### Make sure you have enabled UEFI Boot in the BIOS
 
 ## How to make it boot from the hard drive
