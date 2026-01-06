@@ -54,6 +54,14 @@ Or follow the guide: https://dortania.github.io/OpenCore-Install-Guide
 
 #### Make sure you have enabled UEFI Boot in the BIOS
 
+## The Recovery Server Could Not Be Contacted
+![a](888934040.png)
+
+For this, go to Utilities -> Terminal, and type / paste this:
+```
+nvram IASUCatalogURL="http://swscan.apple.com/content/catalogs/others/index-10.13-10.12-10.11-10.10-10.9-mountainlion-lion-snowleopard-leopard.merged-1.sucatalog"
+```
+
 ## How to make it boot from the hard drive
 
 It's kind of easy, you just install the linux distro of your choice, so it creates a boot entry in bios, and shove the files into the efi partition on the drive
