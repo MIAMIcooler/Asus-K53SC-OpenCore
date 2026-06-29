@@ -64,4 +64,8 @@ nvram IASUCatalogURL="http://swscan.apple.com/content/catalogs/others/index-10.1
 
 ## How to make it boot from the hard drive
 
-It's kind of easy, you just install the linux distro of your choice, so it creates a boot entry in bios, and shove the files into the efi partition on the drive
+1. Install a linux distro of your choice (in this ex. Ubuntu) in UEFI mode, so it creates an NVRAM entry
+2. Navigate to the EFI partition, then EFI/BOOT, and change BOOTx64.efi to the one in the OpenCore EFI folder
+3. Go to EFI/ubuntu, and delete 'grubx64.efi', copy the BOOTx64.efi, and rename it to 'grubx64.efi'
+
+If it doesn't use GRUB as a bootloader, change all .efi files in BOOT and the 2nd folder (if present) to the **exact names** in the folder
