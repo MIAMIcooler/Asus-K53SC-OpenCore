@@ -26,6 +26,10 @@ This EFI is based for macOS 10.13
 ## What doesn't work (still)
 - Webcam 
 
+## Download
+[Latest (v1.0.7)](https://github.com/MIAMIcooler/Asus-K53SC-OpenCore/releases/download/c/a.zip) | [v1.0.6](https://github.com/MIAMIcooler/Asus-K53SC-OpenCore/releases/download/b/a.zip) | [v1.0.3 (debug)](https://github.com/MIAMIcooler/Asus-K53SC-OpenCore/releases/download/a/a.zip) | 
+Or download either from Releases or from Code
+
 ## How to make it work
 Download macOS 10.13 with macrecovery using either: 
 ```
