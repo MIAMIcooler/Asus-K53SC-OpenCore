@@ -18,6 +18,9 @@ This EFI is based for macOS 10.13
 ## What doesn't work (still)
 - Webcam 
 
+## Download
+[Latest (v1.0.7)](https://github.com/MIAMIcooler/Asus-K53SC-OpenCore/releases/download/c/a.zip) | [v1.0.6](https://github.com/MIAMIcooler/Asus-K53SC-OpenCore/releases/download/b/a.zip) | [v1.0.3 (debug)](https://github.com/MIAMIcooler/Asus-K53SC-OpenCore/releases/download/a/a.zip)
+
 ## How to make it work
 Download macOS 10.13 with macrecovery using either: 
 ```
@@ -31,7 +34,7 @@ You need to:
 - Put the files in there (EFI and com.apple.recovery.boot on the root of the drive)
 - Set up SMBIOS (just for it to be different)
 
-Or follow the guide: https://dortania.github.io/OpenCore-Install-Guide
+Or follow the guide: [https://dortania.github.io/OpenCore-Install-Guide](https://dortania.github.io/OpenCore-Install-Guide)
 
 #### Recommended to remap USB via USBToolBox:
 1. Go to "C. Change Settings" -> enable both Native Classes and Legacy Native Classes (N and L), then B to get back
