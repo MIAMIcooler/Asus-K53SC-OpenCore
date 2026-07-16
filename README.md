@@ -36,7 +36,7 @@ py macrecovery.py -b Mac-BE088AF8C5EB4FA2 -m 00000000000J80300 download
 ```
 You need to:
 - Format the flash drive (2GB in FAT32 - works the best)
-- Put the files in there (EFI and com.apple.reecovery.boot on the root of the drive)
+- Put the files in there (EFI and com.apple.recovery.boot on the root of the drive)
 - Set up SMBIOS (just for it to be different)
 
 Or follow the guide: https://dortania.github.io/OpenCore-Install-Guide
