@@ -47,7 +47,7 @@ Or follow the guide: https://dortania.github.io/OpenCore-Install-Guide
 #### Make sure you have enabled UEFI Boot in the BIOS
 
 ## The Recovery Server Could Not Be Contacted
-![a](888934040.png)
+![a](../888934040.png)
 
 For this, go to Utilities -> Terminal, and type / paste this:
 ```
