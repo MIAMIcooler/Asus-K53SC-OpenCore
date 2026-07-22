@@ -11,16 +11,16 @@
 ## Note
 This EFI is based for macOS 10.13
 
+## Download
+[Latest (v1.0.7)](https://github.com/MIAMIcooler/Asus-K53SC-OpenCore/releases/download/c/a.zip) | [v1.0.6](https://github.com/MIAMIcooler/Asus-K53SC-OpenCore/releases/download/b/a.zip) | [v1.0.3 (debug)](https://github.com/MIAMIcooler/Asus-K53SC-OpenCore/releases/download/a/a.zip) | 
+Or download either from Releases or from Code
+
 ## Prerequisites
 - The same exact laptop
 - 2 GB+ flash drive (fast one is recommended)
 - Windows 10 and up (maybe Windows 8 / 8.1 will work with Python 3, idk)
 - Python 3 (>=3.9)
 - Some knowlege of what you're doing
-
-## Download
-[Latest (v1.0.7)](https://github.com/MIAMIcooler/Asus-K53SC-OpenCore/releases/download/c/a.zip) | [v1.0.6](https://github.com/MIAMIcooler/Asus-K53SC-OpenCore/releases/download/b/a.zip) | [v1.0.3 (debug)](https://github.com/MIAMIcooler/Asus-K53SC-OpenCore/releases/download/a/a.zip) | 
-Or download either from Releases or from Code
 
 ## What changed
 - Model (from MacBookAir6,1 "Haswell" to 'MacBookPro8,1 "Sandy Bridge") - fixes graphics after 10.13
