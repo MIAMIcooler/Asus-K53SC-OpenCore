@@ -12,7 +12,7 @@
 This EFI is based for macOS 10.13
 
 ## Download
-[Latest (v1.0.7)](https://github.com/MIAMIcooler/Asus-K53SC-OpenCore/releases/download/c/a.zip) | [v1.0.6](https://github.com/MIAMIcooler/Asus-K53SC-OpenCore/releases/download/b/a.zip) | [v1.0.3 (debug)](https://github.com/MIAMIcooler/Asus-K53SC-OpenCore/releases/download/a/a.zip) | 
+[Latest (v1.0.7)](https://github.com/MIAMIcooler/Asus-K53SC-OpenCore/releases/download/c/1.0.7.zip) | [v1.0.6](https://github.com/MIAMIcooler/Asus-K53SC-OpenCore/releases/download/b/1.0.6.zip) | [v1.0.3 (debug)](https://github.com/MIAMIcooler/Asus-K53SC-OpenCore/releases/download/a/dbg_1.0.3.zip) | 
 Or download either from Releases or from Code
 
 ## Prerequisites
