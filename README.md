@@ -1,6 +1,9 @@
 # ASUS K53SC Opencore
 (based on dubsteptwo's EFI)
 
+## Notice
+Soon I'll release an EFI made for macOS 26; it will be available in a new branch
+
 ## Contents
 1. EFI folder
 2. Utilities:
@@ -10,6 +13,10 @@
 
 ## Note
 This EFI is based for macOS 10.13
+
+## Download
+[Latest (v1.0.7)](https://github.com/MIAMIcooler/Asus-K53SC-OpenCore/releases/download/c/1.0.7.zip) | [v1.0.6](https://github.com/MIAMIcooler/Asus-K53SC-OpenCore/releases/download/b/1.0.6.zip) | [v1.0.3 (debug)](https://github.com/MIAMIcooler/Asus-K53SC-OpenCore/releases/download/a/dbg_1.0.3.zip) | 
+Or download either from Releases or from Code
 
 ## Prerequisites
 - The same exact laptop
