@@ -1,7 +1,21 @@
 (based on dubsteptwo's EFI)
 
+## Notice
+Soon I'll release an EFI made for macOS 26; it will be available in a new branch
+
+## Contents
+1. EFI folder
+2. Utilities:
+   1. macrecovery
+   2. GenSMBIOS
+   3. USBToolBox (USB mapping)
+
 ## Note
 This EFI is based for macOS 10.13
+
+## Download
+[Latest (v1.0.7)](https://github.com/MIAMIcooler/Asus-K53SC-OpenCore/releases/download/c/1.0.7.zip) | [v1.0.6](https://github.com/MIAMIcooler/Asus-K53SC-OpenCore/releases/download/b/1.0.6.zip) | [v1.0.3 (debug)](https://github.com/MIAMIcooler/Asus-K53SC-OpenCore/releases/download/a/dbg_1.0.3.zip) | 
+Or download either from Releases or from Code
 
 ## Prerequisites
 - The same exact laptop
@@ -9,9 +23,6 @@ This EFI is based for macOS 10.13
 - Windows 10 and up (maybe Windows 8 / 8.1 will work with Python 3, idk)
 - Python 3 (>=3.9)
 - Some knowlege of what you're doing
-
-## Download
-[Latest (v1.0.7)](https://github.com/MIAMIcooler/Asus-K53SC-OpenCore/releases/download/c/1.0.7.zip) | [v1.0.6](https://github.com/MIAMIcooler/Asus-K53SC-OpenCore/releases/download/b/1.0.6.zip) | [v1.0.3 (debug)](https://github.com/MIAMIcooler/Asus-K53SC-OpenCore/releases/download/a/dbg_1.0.3.zip)
 
 ## What changed
 - Model (from MacBookAir6,1 "Haswell" to 'MacBookPro8,1 "Sandy Bridge") - fixes graphics after 10.13
@@ -34,7 +45,7 @@ You need to:
 - Put the files in there (EFI and com.apple.recovery.boot on the root of the drive)
 - Set up SMBIOS (just for it to be different)
 
-Or follow the guide: [https://dortania.github.io/OpenCore-Install-Guide](https://dortania.github.io/OpenCore-Install-Guide)
+Or follow the guide: https://dortania.github.io/OpenCore-Install-Guide
 
 #### Recommended to remap USB via USBToolBox:
 1. Go to "C. Change Settings" -> enable both Native Classes and Legacy Native Classes (N and L), then B to get back
@@ -50,7 +61,7 @@ Or follow the guide: [https://dortania.github.io/OpenCore-Install-Guide](https:/
 #### Make sure you have enabled UEFI Boot in the BIOS
 
 ## The Recovery Server Could Not Be Contacted
-![a](./888934040.png)
+![a](888934040.png)
 
 For this, go to Utilities -> Terminal, and type / paste this:
 ```
