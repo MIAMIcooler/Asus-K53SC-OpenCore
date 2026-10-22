@@ -1,7 +1,7 @@
 (based on dubsteptwo's EFI)
 
 ## Notice
-If you want to torture it, switch to branch "1.0.7-tahoe", and install macOS Tahoe on it.
+If you want to torture it, go to [branch "1.0.7-tahoe"](https://github.com/MIAMIcooler/Asus-K53SC-OpenCore/tree/1.0.7-tahoe), and install macOS Tahoe on it.
 
 ## Contents
 1. EFI folder
