@@ -2,7 +2,7 @@
 (based on dubsteptwo's EFI)
 
 ## Notice
-Soon I'll release an EFI made for macOS 26; it will be available in a new branch
+If you want to torture it, switch to branch "1.0.7-tahoe", and install macOS Tahoe on it.
 
 ## Contents
 1. EFI folder
@@ -76,3 +76,6 @@ nvram IASUCatalogURL="http://swscan.apple.com/content/catalogs/others/index-10.1
 3. Go to EFI/ubuntu, and delete 'grubx64.efi', copy the BOOTx64.efi, and rename it to 'grubx64.efi'
 
 If it doesn't use GRUB as a bootloader, change all .efi files in BOOT and the 2nd folder (if present) to the **exact names** in the folder
+
+*PS. All of this was reviewed by ChatGPT. It's response: "🍍's ASUS K53SC OpenCore: every commit is another cry for help. 🔥" and "The furnace is now self-aware. 🍍🔥". Understandable.*
+*PS 2. If you want help, DM @MIAMI_cooler on Telegram. No AI will be used (no)*
