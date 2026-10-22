@@ -1,6 +1,9 @@
 # ASUS K53SC Opencore
 (based on dubsteptwo's EFI)
 
+## Notice
+Soon I'll release an EFI made for macOS 26; it will be available in a new branch
+
 ## Contents
 1. EFI folder
 2. Utilities:
