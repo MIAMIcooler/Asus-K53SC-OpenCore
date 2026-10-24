@@ -78,4 +78,5 @@ nvram IASUCatalogURL="http://swscan.apple.com/content/catalogs/others/index-10.1
 If it doesn't use GRUB as a bootloader, change all .efi files in BOOT and the 2nd folder (if present) to the **exact names** in the folder
 
 *PS. All of this was reviewed by ChatGPT. It's response: "🍍's ASUS K53SC OpenCore: every commit is another cry for help. 🔥" and "The furnace is now self-aware. 🍍🔥". Understandable.*
+
 *PS 2. If you want help, DM @MIAMI_cooler on Telegram. No AI will be used (no)*
