@@ -71,8 +71,11 @@ The system is still laggy, though. Having GPU acceleration doesn't magically mak
 If it doesn't use GRUB as a bootloader, change the `.efi` files in `BOOT` and the second folder (if present) to the **exact names** expected by that bootloader.
 
 *PS. I don't know how tahoe works on this "furnace", thanks OpenCore-Simplify*
+
 *PS 2. To those who read commit names, "torturous materials detected" is the best one i made.*
+
 *PS 3. if MetraByte sees this, tell me his acer espire video made a dent in my brain :)*
 
 *made w/ help of ChatGPT, Gemini, OpenCore-Simplify by 🍍 and dubsteptwo*
+
 *2026*
