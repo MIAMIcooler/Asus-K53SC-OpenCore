@@ -78,3 +78,32 @@ If it doesn't use GRUB as a bootloader, change all .efi files in BOOT and the 2n
 
 *PS. All of this was reviewed by ChatGPT. It's response: "🍍's ASUS K53SC OpenCore: every commit is another cry for help. 🔥" and "The furnace is now self-aware. 🍍🔥". Understandable.*
 *PS 2. If you want help, DM @MIAMI_cooler on Telegram. No AI will be used (no)*
+
+```
+# 1. Find the latest osinstallersetupd crash log
+ls -lt /Library/Logs/DiagnosticReports/
+
+# 2. Extract the exception, termination reason, and crashed thread backtrace
+python3 -c '
+import glob, json
+files = sorted(glob.glob("/Library/Logs/DiagnosticReports/osinstallersetupd*.ips"))
+if not files:
+    print("No .ips file found; checking install.log...")
+else:
+    print("Reading:", files[-1])
+    with open(files[-1]) as f:
+        lines = f.readlines()
+    data = json.loads("".join(lines[1:]))
+    print("Exception:", data.get("exception"))
+    print("Termination:", data.get("termination"))
+    fault_idx = data.get("faultingThread", 0)
+    threads = data.get("threads", [])
+    if fault_idx < len(threads):
+        for frame in threads[fault_idx].get("frames", [])[:15]:
+            print(frame)
+'
+
+# 3. Check the last 30 lines of install.log and disk layout
+tail -n 30 /var/log/install.log
+diskutil list
+```
